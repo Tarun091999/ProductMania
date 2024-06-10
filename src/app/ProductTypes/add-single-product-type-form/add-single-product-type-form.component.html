@@ -1,0 +1,20 @@
+<div class="sigleFormTypeContainer height-100" >
+    <div class="height-100" >
+        <form [formGroup]="productTypeForm" class="height-100" (ngSubmit)="onSubmit()">
+            <div class="addSingleProductTypeformContainer">
+            <div >
+            <mat-form-field class="width100" appearance="outline">
+                <input matInput formControlName="productType"  placeholder="Enter Product Type Name">
+            </mat-form-field>
+            <em class="display-block error" *ngIf=" productTypeName.errors?.['required'] &&productTypeName.invalid && productTypeName.touched">Product type name is required</em>
+            <em class="display-block error" *ngIf=" productTypeName.errors?.['minlength'] &&productTypeName.invalid && productTypeName.touched">Please enter valid product type name minimum 3 characters required</em>
+        </div>
+        <div class="formButtons">
+            
+            <button mat-raised-button type="submit" class="fitHeightToContent" color="primary">Insert</button>
+            <button mat-button (click)="closeDialogue()">Close</button>
+        </div>
+        </div>
+        </form>
+    </div>
+  </div>

@@ -1,0 +1,24 @@
+.homeContainer{
+    height:90.79vh;
+    background-image: url("/assets/Images/coverImage5.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbobox{
+    width: 70%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeHeading{
+    color: white;
+    font-size: large;
+    text-align: center;
+}

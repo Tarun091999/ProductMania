@@ -1,0 +1,25 @@
+<div class="addProductTypeContainer">
+  <div class="chooseProductTypeContainer">
+    <h2 class="chooseWayHeading">Add Single or Multiple Product Type</h2>
+    <mat-form-field class="formType" appearance="outline">
+      <mat-select
+        [(value)]="selectedValue"
+        placeholder="choose here"
+        class="formTypeSelection"
+        name="formTypeSelection"
+        (selectionChange)="openForm()"
+      >
+        <mat-option
+          class="formTypeOption"
+          *ngFor="let formType of formTypes"
+          [value]="formType.value"
+          >{{ formType.viewValue }}</mat-option
+        >
+      </mat-select>
+    </mat-form-field>
+  </div>
+  
+  <div *ngIf="selectedValue == 'multiple'">
+    <h2>multupleValue</h2>
+  </div>
+</div>

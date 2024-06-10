@@ -1,1 +1,43 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.inputFullWidth{
+    width: 100%;
+}
+
+.width90{
+    width: 90%;
+}
+.width70{
+    width: 70%;
+}
+.width80{
+    width: 80%;
+}
+.width85{
+    width: 85%;
+}
+.width100{
+    width: 100%;
+}
+.flex{
+display:flex;
+}
+.m-auto{
+    margin: auto;
+}
+.justifyBetween
+{
+    justify-content: space-between;
+}
+.display-block{
+    display: block;
+}
+.error{
+    color: red;
+}
+.height-100{
+    height: 100%;
+}

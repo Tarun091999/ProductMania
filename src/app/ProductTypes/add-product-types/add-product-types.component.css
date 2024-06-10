@@ -1,0 +1,25 @@
+.chooseProductTypeContainer{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.chooseWayHeading{
+    color: rgb(95, 95, 95);
+}
+.formType{
+    width: auto;
+}
+.formContainer{
+    width: 90%;
+    margin: auto;
+}
+.formContent{
+    height: 54px;
+}
+.fitHeightToContent{
+    height: auto;
+}

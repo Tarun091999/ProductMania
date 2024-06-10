@@ -1,0 +1,17 @@
+.centeredContent{
+    height:90.79vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.NoProductWrapper{
+    width: 70%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.productLink{
+    color: rgb(95, 95, 95);
+}
